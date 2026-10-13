@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jassu AI Labs builds intelligent AI agents, automation systems, and scientific research tools.">
+  <title>Jassu AI Labs | Building Intelligent AI</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080b12;
+      color: #f5f7ff;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #202638;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #83e8d0;
+    }
+
+    nav a {
+      color: #d1d7e5;
+      text-decoration: none;
+      margin-left: 22px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 90px 10%;
+      background: radial-gradient(
+        ellipse at top right,
+        #163a40 0%,
+        #080b12 55%
+      );
+    }
+
+    .tag {
+      color: #83e8d0;
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.1;
+      margin: 24px 0;
+      max-width: 850px;
+    }
+
+    h1 span {
+      color: #83e8d0;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #aab4c8;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 32px;
+      padding: 13px 24px;
+      background: #83e8d0;
+      color: #07110f;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      width: fit-content;
+    }
+
+    section {
+      padding: 75px 10%;
+    }
+
+    h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    .muted {
+      color: #aab4c8;
+      max-width: 750px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+      margin-top: 32px;
+    }
+
+    .card {
+      background: #111724;
+      border: 1px solid #273143;
+      border-radius: 12px;
+      padding: 26px;
+    }
+
+    .card h3 {
+      color: #83e8d0;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #aab4c8;
+    }
+
+    footer {
+      padding: 30px 10%;
+      border-top: 1px solid #202638;
+      color: #aab4c8;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 20px 5%;
+      }
+
+      nav a {
+        margin-left: 10px;
+        font-size: 13px;
+      }
+
+      .hero, section {
+        padding-left: 7%;
+        padding-right: 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">JASSU AI LABS</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">INDEPENDENT AI RESEARCH & DEVELOPMENT</div>
+
+      <h1>
+        Building the next generation of
+        <span>intelligent AI systems.</span>
+      </h1>
+
+      <p>
+        Jassu AI Labs explores AI agents, intelligent automation,
+        multi-agent architectures, and AI applications for scientific
+        research. We are developing early-stage prototypes focused
+        on practical, accessible AI solutions.
+      </p>
+
+      <a class="button" href="#projects">Explore Our Work →</a>
+    </section>
+
+    <section id="about">
+      <h2>Our Mission</h2>
+
+      <p class="muted">
+        Our mission is to make intelligent AI systems more useful,
+        accessible, and reliable. We explore modular AI architectures
+        that combine reasoning, memory, tools, and structured workflows
+        to help people tackle complex problems.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Areas of Exploration</h2>
+
+      <p class="muted">
+        Our current interests span intelligent automation and
+        interdisciplinary AI research.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>JARVIS AI</h3>
+          <p>
+            An early-stage, local-first AI assistant exploring
+            task routing, conversation memory, specialized models,
+            and modular automation.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>AI Research</h3>
+          <p>
+            Exploring machine learning and computational methods
+            for scientific research and biotechnology applications.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Intelligent Automation</h3>
+          <p>
+            Investigating AI-assisted workflows, tool integration,
+            structured problem solving, and research-driven
+            decision support.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+
+      <p class="muted">
+        Interested in AI research, collaboration, or early-stage
+        product development? Get in touch.
+      </p>
+
+      <p class="muted" style="margin-top: 18px;">
+        Email: jasvantharaja@karunya.edu.in
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Jassu AI Labs. Independent AI research and development.
+  </footer>
+</body>
+</html>
